@@ -1,0 +1,293 @@
+<Alloy>
+	<View class="container">
+		<View class="topHalf">
+			<View class="leftHalf">
+				<View class="row1of5" backgroundColor="cyan" />
+				<View class="row2of5" backgroundColor="magenta" />
+				<View class="row3of5" backgroundColor="yellow" />
+				<View class="row4of5">
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="blue"/>
+					<View class="col3of3" backgroundColor="green"/>
+				</View>
+				<View class="row5of5" backgroundColor="black" />
+			</View>
+			<View class="rightHalf">
+				<View class="row1of5" backgroundColor="cyan" />
+				<View class="row2of5">
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="blue"/>
+					<View class="col3of3" backgroundColor="green"/>
+				</View>
+				<View class="row3of5" backgroundColor="magenta" />
+				<View class="row4of5" backgroundColor="yellow" />
+				<View class="row5of5" backgroundColor="black" />
+			</View>
+		</View>
+		<View class="bottomHalf">
+			<TableView>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of3" backgroundColor="red"/>
+					<View class="col2of3" backgroundColor="green"/>
+					<View class="col3of3" backgroundColor="blue"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of4" backgroundColor="cyan"/>
+					<View class="col2of4" backgroundColor="yellow"/>
+					<View class="col3of4" backgroundColor="magenta"/>
+					<View class="col4of4" backgroundColor="black"/>
+				</TableViewRow>
+				<TableViewRow>
+					<View class="col1of7" backgroundColor="red"/>
+					<View class="col2of7" backgroundColor="orange"/>
+					<View class="col3of7" backgroundColor="yellow"/>
+					<View class="col4of7" backgroundColor="green"/>
+					<View class="col5of7" backgroundColor="blue"/>
+					<View class="col6of7" backgroundColor="indigo"/>
+					<View class="col7of7" backgroundColor="violet"/>
+				</TableViewRow>
+			</TableView>
+		</View>
+
+	</View>
+</Alloy>

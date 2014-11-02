@@ -1,0 +1,71 @@
+<Alloy>
+	<View class="container">
+		<View class="framed">
+			<View class="framed">
+				<View class="framed">
+					<View class="framed">
+						<View class="framed">
+							<View class="framed">
+								<View class="framed">
+									<View class="framed">
+										<View class="framed">
+											<View class="framed">
+												<View class="framed">
+													<View class="framed" platform="ios"><!-- android can't handle too many layers of nesting -->
+														<View class="framed">
+															<View class="framed">
+																<View class="framed">
+																	<View class="framed">
+																		<View class="framed">
+																			<View class="framed">
+																				<View class="framed">
+																					<View class="framed">
+																						<View class="framed">
+																							<View class="framed">
+																								<View class="framed">
+																									<View class="framed">
+																										<View class="framed">
+																											<View class="framed">
+																												<View class="framed">
+																													<View class="framed">
+																														<View class="framed">
+																															<View class="framed">
+																																<View class="framed">
+																																	<View class="framed">
+																																		<View class="framed">
+																																			<View class="framed"></View>
+																																		</View>
+																																	</View>
+																																</View>
+																															</View>
+																														</View>
+																													</View>
+																												</View>
+																											</View>
+																										</View>
+																									</View>
+																								</View>
+																							</View>
+																						</View>
+																					</View>
+																				</View>
+																			</View>
+																		</View>
+																	</View>
+																</View>
+															</View>
+														</View>
+													</View>
+												</View>
+											</View>
+										</View>
+									</View>
+								</View>
+							</View>
+						</View>
+					</View>
+				</View>
+			</View>
+		</View>
+	</View>
+</Alloy>
