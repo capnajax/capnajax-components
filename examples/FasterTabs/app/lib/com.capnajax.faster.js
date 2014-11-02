@@ -30,15 +30,17 @@ function createTab(options) {
 	
 		tab.removeEventListener('focus', focusHandler);
 
+		// on iOS and Android I am rendering mostly off the screen and sliding it in when the rendering is complete
+		// on mobile web, I am waiting until the view is focused before even adding the required view.
+
 		var required	= Alloy.createController(options.require),
-			rootRect	= rootWindow.rect;
-			
-		var	container	= Ti.UI.createView({
+			rootRect	= rootWindow.rect,
+			container	= Ti.UI.createView({
 								opacity: 0,
 								width: rootRect.width,
 								height: rootRect.height,
-								left: rootRect.width ? rootRect.width-1 : 0,
-								top: rootRect.height ? rootRect.height-1 : 0
+								left: OS_MOBILEWEB ? 0 : (rootRect.width ? rootRect.width-1 : 0),
+								top: OS_MOBILEWEB ? 0 : (rootRect.height ? rootRect.height-1 : 0)
 						  });
 
 		var isAfterRequiredPostLayout = false;
@@ -47,15 +49,16 @@ function createTab(options) {
 			// a zero size.
 			Ti.API.debug("faster::createTab focusHandler setting up fixContainer");
 			var fixContainer = function() {
-				Ti.API.debug("faster::createTab focusHandler fixContainer called");
 				rootWindow.removeEventListener('postlayout', fixContainer);
 				rootRect = rootWindow.rect;
+				Ti.API.debug("faster::createTab focusHandler fixContainer called, rootRect = " + JSON.stringify(rootRect));
 				container.applyProperties({
 					width: rootRect.width,
 					height: rootRect.height,
-					left: isAfterRequiredPostLayout ? 0 : rootRect.width-1,
-					top: isAfterRequiredPostLayout ? 0 : rootRect.height-1
+					left: (OS_MOBILEWEB || isAfterRequiredPostLayout) ? 0 : rootRect.width-1,
+					top: (OS_MOBILEWEB || isAfterRequiredPostLayout) ? 0 : rootRect.height-1
 				});
+				OS_MOBILEWEB && _.defer(function() {container.add(required.getView());});
 			};
 			rootWindow.addEventListener('postlayout', fixContainer);
 		}
@@ -64,14 +67,15 @@ function createTab(options) {
 		Ti.API.debug("faster::createTab focusHandler - rootRect = " + JSON.stringify(rootRect));
 
 		var requiredPostLayout = function() {
+			Ti.API.debug("faster::createTab requiredPostLayout called");
 			required.getView().removeEventListener('postlayout', requiredPostLayout);
 			container.applyProperties({top: 0, left: 0, opacity: 1});
 			isAfterRequiredPostLayout = true;
 			options.launchWindow && _.defer(function() {launchView.fireEvent('launched', {});});
-		};				  
+		};
 		required.getView().addEventListener('postlayout', requiredPostLayout);							
 
-		container.add(required.getView());
+		OS_MOBILEWEB || container.add(required.getView());
 		rootWindow.add(container);
 	};
 	
