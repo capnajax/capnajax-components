@@ -1,0 +1,39 @@
+
+".container": {
+	backgroundColor:"white"
+}
+"#topHalf":{
+	top: 0,
+	left: 0,
+	right: 0,
+	height: 140
+},
+"#heading":{
+	top: 0,
+	height: 40,
+	text:L("slow.heading")
+},
+"#descriptionContainer":{
+	top: 40,
+	left: 10,
+	right: 10,
+	bottom: 0,
+	scrollType: "vertical"
+}
+"#description":{
+	font: {
+		fontSize: 10
+	},
+	text:L("slow.description")
+}
+"#bottomHalf":{
+	top: 140,
+	left:0,
+	right:0,
+	bottom:0
+},
+"ScrollablePage": {
+	require: "colorGroup",
+	showPagingControl: true,
+	shades: 20
+}

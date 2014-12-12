@@ -1,0 +1,16 @@
+<Alloy>
+	<View class="container">
+		<ScrollableView>
+			<View id="innerView">
+				<!-- textid property wasn't working on android -->
+				<Label class="heading" id="introh1"/>
+				<Label class="body" id="introp1"/>
+				<Label class="heading" id="introh2"/>
+				<Label class="body" id="introp2"/>
+				<Label class="heading" id="introh3"/>
+				<Label class="body" id="introp3"/>
+				<Label class="body" id="introp4"/>
+			</View>
+		</ScrollableView>
+	</View>
+</Alloy>

@@ -1,0 +1,35 @@
+
+".container": {
+
+}
+"#innerView": {
+	layout: "vertical",
+	backgroundColor: "white"
+}
+".heading": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	top: 20,
+	left: 20,
+	right: 20,
+	color: "black"
+},
+".body": {
+	top: 10,
+	left: 20, 
+	right: 20,
+	height: Ti.UI.SIZE,
+	width: Ti.UI.FILL,
+	font: {
+		fontSize: 10
+	},
+	color: "black"
+},
+"#introh1":{text:L("intro.h1")},
+"#introp1":{text:L("intro.p1")},
+"#introh2":{text:L("intro.h2")},
+"#introp2":{text:L("intro.p2")}
+"#introh3":{text:L("intro.h3")},
+"#introp3":{text:L("intro.p3")}
+"#introp4":{text:L("intro.p4")}
+

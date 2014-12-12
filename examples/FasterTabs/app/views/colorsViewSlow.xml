@@ -1,0 +1,20 @@
+<Alloy>
+	<View class="container">
+		<View id="topHalf">
+			<Label id="heading" />
+			<ScrollView id="descriptionContainer">
+				<Label id="description" />
+			</ScrollView>
+		</View>
+		<View id="bottomHalf">
+			<ScrollableView>
+				<Require type="view" src="colorGroup" title="Red" group="r" shades="20" />
+				<Require type="view" src="colorGroup" title="Yellow" group="y" shades="20" />
+				<Require type="view" src="colorGroup" title="Green" group="g" shades="20" />
+				<Require type="view" src="colorGroup" title="Cyan" group="c" shades="20" />
+				<Require type="view" src="colorGroup" title="Blue" group="b" shades="20" />
+				<Require type="view" src="colorGroup" title="Magenta" group="m" shades="20" />
+			</ScrollableView>
+		</View>
+	</View>
+</Alloy>

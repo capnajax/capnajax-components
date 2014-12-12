@@ -1,14 +1,16 @@
 <Alloy>
 	<TabGroup module="com.capnajax.faster">
-		<Tab module="com.capnajax.faster" title="Tab 1" icon="KS_nav_ui.png" require="complexView0">
-			<Window title="Tab 1" backgroundColor="fuchsia">
-				<Label>I am Window 1</Label>
-			</Window>
+		<Tab module="com.capnajax.faster" title="Introduction" require="intro">
+			<Window title="Introduction" />
 		</Tab>
-		<Tab module="com.capnajax.faster" title="Tab 2" icon="KS_nav_views.png" require="complexView1">
-			<Window title="Tab 2">
-				<Label>I am Window 2</Label>
-			</Window>
+		<Tab module="com.capnajax.faster" title="Slow" require="colorsViewSlow">
+			<Window title="Slow" />
+		</Tab>
+		<Tab module="com.capnajax.faster" title="Faster" require="colorsViewFaster">
+			<Window title="Faster" />
+		</Tab>
+		<Tab module="com.capnajax.faster" title="Fastest" require="colorsViewFastest">
+			<Window title="Fastest" />
 		</Tab>
 	</TabGroup>
 </Alloy>

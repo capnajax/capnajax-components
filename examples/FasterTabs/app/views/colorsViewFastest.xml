@@ -1,0 +1,20 @@
+<Alloy>
+	<View class="container">
+		<View id="topHalf">
+			<Label id="heading" />
+			<ScrollView id="descriptionContainer">
+				<Label id="description" />
+			</ScrollView>
+		</View>
+		<View id="bottomHalf">
+			<ScrollableView module="com.capnajax.faster">
+				<ScrollablePage module="com.capnajax.faster" title="Red" group="r" q="true"/>
+				<ScrollablePage module="com.capnajax.faster" title="Yellow" group="y" q="true"/>
+				<ScrollablePage module="com.capnajax.faster" title="Green" group="g" q="true"/>
+				<ScrollablePage module="com.capnajax.faster" title="Cyan" group="c" q="true"/>
+				<ScrollablePage module="com.capnajax.faster" title="Blue" group="b" q="true"/>
+				<ScrollablePage module="com.capnajax.faster" title="Magenta" group="m" q="true"/>
+			</ScrollableView>
+		</View>
+	</View>
+</Alloy>
