@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<resources>
+	<string name="intro.h1">Faster Tabs</string>
+	<string name="intro.p1">Normally Appcelerator tabs are all loaded and rendered immediately on app startup, whether they are needed or not. These tabs are lazy-loaded. As you work through the tabs in this app, you will notice that some screens take time to render. If you add the render time of all the screens together, you will get the amount of time that was shaved off the app's startup time.</string>
+	<string name="intro.h2">Faster Scrollable Views</string>
+	<string name="intro.p2">This app provides two examples of Scrollable Views, each containing a complex screen. While these examples are clearly contrived, this kind of complexity is very possible in apps that, for example, provide a lot of forms, questionairres, or have loads of content. In each of these examples, I have provided a fast and a slow version. The fast version renders the pages as needed, the slow version renders them all immediately. Compare the feeling of the two screens and you'll see the benefit of rendering on-demand as needed.</string>
+	<string name="intro.h3">Faster task Queue</string>
+	<string name="intro.p3">To make the scrollable examples work this app provices another optimization, a task queue that doesn't block event processing.</string>
+	<string name="intro.p4">Go through the tabs one by one and scroll through the ScrollableViews on the bottom half of each screen.</string>
+	<string name="group.r">Red</string>
+	<string name="group.y">Yellow</string>
+	<string name="group.g">Green</string>
+	<string name="group.c">Cyan</string>
+	<string name="group.b">Blue</string>
+	<string name="group.m">Magenta</string>
+	<string name="slow.heading">Colour Palette, traditional</string>
+	<string name="slow.description">Each color on each page of the Scrollable View below is a separate view; there are 400 in total. This tab shows the traditional implementation, with a Ti.UI.ScrollableView containing six Views. The Palette on all six pages rendered immediately, no attempt is made to schedule the tasks. Note that this tab took a long time to render. However, when scrolling between palettes, the scrolling action is smooth.</string>
+	<string name="faster.heading">Colour Palette, faster</string>
+	<string name="faster.description">This page has the same six colour palettes with the same 400 colours each to render, but it uses the com.capnajax.faster ScrollableView and ScrollablePage to lazy-load pages instead. This tab loaded a lot faster than the previous one. However, if you scroll too quickly to the right, you'll notice the scroll is not smooth, it sometimes gets stuck for a few moments. While the Faster ScrollableView is designed to stay a page ahead of the user, if you scroll too fast, you're scrolling while a later screen is also rendering.</string>
+	<string name="fastest.heading">Colour Palette, fastest</string>
+	<string name="fastest.description">This page is the same as the previous tab, but the job of creating the page is broken up into chunks. These chunks are then queued in such a way to avoid interfering with the JavaScript event queue, so scroll events can be processed, even if a page is in the middle of rendering itself. This allows for smooth scrolling even while pages are lazy-loaded.</string>
+</resources>
